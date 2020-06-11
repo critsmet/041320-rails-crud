@@ -1,0 +1,10 @@
+<h2>Edit Student</h2>
+
+<%= render "form" %>
+
+<br>
+<br>
+
+<%= form_with model: @student, method: "delete" do %>
+  <%= submit_tag "Delete Student" %>
+<% end %>

@@ -1,0 +1,14 @@
+<%= form_with model: @student, local: true do |f| %>
+  <% if @student.errors.any? %>
+    <% @student.errors.full_messages.each do |message| %>
+      <%= message %>
+    <% end %>
+  <% end %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :age %>
+  <%= f.number_field :age, in: 5..18  %>
+  <%= f.label :grade %>
+  <%= f.number_field :grade , in: 1..12 %>
+  <%= f.submit %>
+<% end %>

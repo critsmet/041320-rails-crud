@@ -3,9 +3,9 @@
 *Key Topics*
 
 - Path helpers and defining routing
- - Path helpers are methods that return strings to paths 
+ - Path helpers are methods that return strings to paths
 - Form_with and form helpers
 - Strong params
 - Validations, Flash Messages
 - Partials
-- Before action, others?
+- Before_action, others?
